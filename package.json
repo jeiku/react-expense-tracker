@@ -1,6 +1,7 @@
 {
   "name": "react-expense-tracker",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "Backend for expense tracker",
   "main": "server.js",
   "scripts": {
