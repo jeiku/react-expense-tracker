@@ -41,10 +41,10 @@ export const GlobalProvider = ({children}) => {
         payload: res.data.data,
       });
     } catch (err) {
-      // dispatch({
-      //     type: 'TRANSACTION_ERROR',
-      //     payload: err.response.data.error
-      //     });
+      dispatch({
+        type: "TRANSACTION_ERROR",
+        payload: err.response.data.error,
+      });
     }
   }
 
